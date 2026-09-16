@@ -5,8 +5,9 @@
 SIM ?= icarus
 FST ?= -fst # Use more efficient FST format
 TOPLEVEL_LANG ?= verilog
+COMPILE_ARGS += -g2012
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = project.v uart_tx.v
+PROJECT_SOURCES = project.sv uart_tx.sv
 
 ifneq ($(GATES),yes)
 
