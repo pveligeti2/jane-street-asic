@@ -13,3 +13,4 @@ test/results.xml
 test/gate_level_netlist.v
 formal/uart_tx_*/
 formal/uart_tx/
+*.swp
